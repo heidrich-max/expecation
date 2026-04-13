@@ -1,0 +1,9 @@
+# Standard Web Project Ignore
+node_modules/
+.DS_Store
+dist/
+build/
+.env
+.vscode/
+.idea/
+*.log

@@ -3,93 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expecation - Professionelle Immobilienverwaltung</title>
-    <meta name="description" content="Expecation.de - Ihre kompetente Immobilienverwaltung. Wir kümmern uns um Ihre Objekte mit höchsten Standards und absoluter Zuverlässigkeit.">
+    <title>Expecation - Immobilienverwaltung</title>
+    <meta name="description" content="Expecation.de - Professionelle Immobilienverwaltung.">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     
     <!-- Styles -->
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div class="glow-bg"></div>
-    
-    <header id="header">
-        <nav>
-            <div class="logo">Expecation<span>.de</span></div>
-            <ul class="nav-links">
-                <li><a href="#about">Dienstleistungen</a></li>
-                <li><a href="#vision">Werte</a></li>
-                <li><a href="#contact" class="btn-primary">Anfrage</a></li>
-            </ul>
-        </nav>
+<body class="minimal">
+    <header class="minimal-header">
+        <div class="logo">Expecation.de</div>
+        <div class="nav-right">
+            <a href="impressum.html" class="link-white">Impressum</a>
+        </div>
     </header>
 
-    <main>
-        <section id="hero">
-            <div class="hero-content" data-reveal>
-                <h1>Professionelle Immobilien<span class="accent">verwaltung</span>.</h1>
-                <p>Werterhalt und Sicherheit für Ihre Immobilien. Expecation.de bietet modernes Management für anspruchsvolle Eigentümer.</p>
-                <div class="cta-group">
-                    <a href="#about" class="btn-primary">Leistungen</a>
-                    <a href="#contact" class="btn-secondary">Kontakt</a>
-                </div>
-            </div>
-            <div class="hero-visual" data-reveal="fade-left">
-                <img src="Karte.svg" alt="Expecation Karte" id="main-map">
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-                <div class="section-label" data-reveal>Unsere Leistungen</div>
-                <h2 data-reveal>Immobilienmanagement</h2>
-                <div class="grid">
-                    <div class="card glass" data-reveal="fade-up">
-                        <h3>Mietverwaltung</h3>
-                        <p>Umfassende Betreuung Ihrer Mietobjekte – von der Mietersuche bis zur rechtssicheren Abrechnung.</p>
-                    </div>
-                    <div class="card glass" data-reveal="fade-up" data-delay="100">
-                        <h3>WEG-Verwaltung</h3>
-                        <p>Professionelle Verwaltung von Wohnungseigentümergemeinschaften mit Fokus auf Werterhalt und Harmonie.</p>
-                    </div>
-                    <div class="card glass" data-reveal="fade-up" data-delay="200">
-                        <h3>Instandhaltung</h3>
-                        <p>Regelmäßige Kontrolle und proaktive Planung von Sanierungsmaßnahmen für Ihre Immobilie.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="vision">
-            <div class="container centered" data-reveal>
-                <h2>Über Expecation</h2>
-                <p class="large-text">Expecation steht für Verlässlichkeit und Professionalität in der Immobilienverwaltung. Wir kümmern uns um Ihre Werte, als wären es unsere eigenen.</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container glass contact-container" data-reveal="fade-up">
-                <div class="contact-info">
-                    <h2>Kontaktieren Sie uns</h2>
-                    <p>Haben Sie Fragen oder ein spannendes Projekt? Wir freuen uns auf Ihre Nachricht.</p>
-                    <a href="mailto:info@expecation.de" class="email-link">info@expecation.de</a>
-                </div>
-            </div>
-        </section>
+    <main class="minimal-main">
+        <div class="map-container">
+            <img src="Karte.svg" alt="Expecation Logo Flyer" id="main-map">
+        </div>
     </main>
 
     <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Expecation.de. Alle Rechte vorbehalten.</p>
-            <div class="footer-links">
-                <a href="#">Impressum</a>
-                <a href="#">Datenschutz</a>
-            </div>
-        </div>
+        <p>&copy; 2026 Expecation.de</p>
     </footer>
 
     <script src="index.js"></script>
